@@ -22,9 +22,8 @@ ORGANIC_PRODUCE]
 end
 
 def sorted_matrix
- CONVENTIONAL_PRODUCE.sort = cv_produce
- ORGANIC_PRODUCE.sort = og_produce
- [cv_produce,og_produce]
+ [CONVENTIONAL_PRODUCE.sort,
+ ORGANIC_PRODUCE.sort]
 end
 
 def matrix_lookup(matrix, row, column)
