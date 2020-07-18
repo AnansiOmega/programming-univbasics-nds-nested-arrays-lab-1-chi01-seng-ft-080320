@@ -1,4 +1,3 @@
-require 'pry'
 
 ORGANIC_PRODUCE = [
   "Strawberries",
