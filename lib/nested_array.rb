@@ -32,5 +32,5 @@ end
 
 def matrix_update(matrix, row, column, new_value)
 lookup = matrix[row][column]
-matrix[row][column][lookup.push(new_value)]
+lookup.push(new_value)
 end
