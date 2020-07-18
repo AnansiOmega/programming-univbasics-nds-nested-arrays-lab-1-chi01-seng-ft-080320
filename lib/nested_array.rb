@@ -30,7 +30,7 @@ matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
-update_matrix = matrix[column]
-update_matrix[column].insert(row,new_value)
+
+matrix[column].insert(row,new_value)
 
 end
