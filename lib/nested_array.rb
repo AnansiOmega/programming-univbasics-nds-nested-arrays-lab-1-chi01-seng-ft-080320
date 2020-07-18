@@ -22,9 +22,9 @@ ORGANIC_PRODUCE]
 end
 
 def sorted_matrix
-  # Using Array literal syntax only, build another nested array that 
-  # uses the arrays of conventional and organic produce as before.
-  # However, this time, sort each internal array alphabetically by the first character
+ CONVENTIONAL_PRODUCE.sort = cv_produce
+ ORGANIC_PRODUCE.sort = og_produce
+ [cv_produce,og_produce]
 end
 
 def matrix_lookup(matrix, row, column)
