@@ -32,5 +32,5 @@ end
 def matrix_update(matrix, row, column, new_value)
 
 updated_matrix = matrix[row][column] << new_value
-return updated_matrix
+updated_matrix
 end
