@@ -31,5 +31,6 @@ matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
-matrix[row][row][column] = new_value.push
+matrix[row][row][column][new_value.push]
+return
 end
